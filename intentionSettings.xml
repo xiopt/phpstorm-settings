@@ -4,5 +4,36 @@
     <ignoreAction name="Language Injection/Inject language or reference" />
     <ignoreAction name="XML/Expand empty tag" />
     <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="SQL/Expand column list" />
+    <ignoreAction name="SQL/Extract subquery as CTE" />
+    <ignoreAction name="SQL/Flip expression operands" />
+    <ignoreAction name="SQL/Inject by Type" />
+    <ignoreAction name="SQL/Inline CTE" />
+    <ignoreAction name="SQL/Inline table alias" />
+    <ignoreAction name="SQL/Introduce table alias" />
+    <ignoreAction name="SQL/Merge INSERT statements" />
+    <ignoreAction name="SQL/Preview delete" />
+    <ignoreAction name="SQL/Preview update" />
+    <ignoreAction name="SQL/Qualify identifier" />
+    <ignoreAction name="SQL/Quote identifier" />
+    <ignoreAction name="SQL/Replace BETWEEN expression with comparisons" />
+    <ignoreAction name="SQL/Replace DISTINCT with GROUP BY" />
+    <ignoreAction name="SQL/Replace GROUP BY with DISTINCT" />
+    <ignoreAction name="SQL/Replace IN expression with equality checks" />
+    <ignoreAction name="SQL/Replace NATURAL JOIN with ON clause" />
+    <ignoreAction name="SQL/Replace NATURAL JOIN with USING clause" />
+    <ignoreAction name="SQL/Replace ON with NATURAL JOIN" />
+    <ignoreAction name="SQL/Replace ON with USING" />
+    <ignoreAction name="SQL/Replace USING with NATURAL JOIN" />
+    <ignoreAction name="SQL/Replace USING with ON" />
+    <ignoreAction name="SQL/Replace column name with an ordinal number" />
+    <ignoreAction name="SQL/Replace column number with a name" />
+    <ignoreAction name="SQL/Replace comparison with BETWEEN expression" />
+    <ignoreAction name="SQL/Replace equality checks with IN expression" />
+    <ignoreAction name="SQL/Split INSERT statement" />
+    <ignoreAction name="SQL/Split string literal" />
+    <ignoreAction name="SQL/Store table relation" />
+    <ignoreAction name="SQL/Unqualify identifier" />
+    <ignoreAction name="SQL/Unquote identifier" />
   </component>
 </application>
