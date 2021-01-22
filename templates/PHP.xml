@@ -1,6 +1,35 @@
 <templateSet group="PHP">
-  <template name="rel" value="$table-&gt;unsignedBigInteger('$MODEL$_id');&#10;$table-&gt;foreign('$MODEL$_id')-&gt;references('id')-&gt;on('$MODEL$s')-&gt;onDelete('cascade');&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="vd" value="echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;var_dump($1$);&#10;echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;die;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dbg" value="if(debugip('andy')) {&#10;    echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot; @ &quot;.date(&quot;H:i:s&quot;).&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;    var_dump($1$);&#10;    echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;    die;&#10;}" description="debug" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="lg" value="console.log($1$);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="vda" value="echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;echo print_r($1$,true);&#10;echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;die;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;    $1$&#10;} catch (Exception $ex) {&#10;    $this-&gt;logError($ex-&gt;getMessage(),__LINE__,__FILE__);&#10;}" description="try" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="err" value="ini_set('display_errors', 1);&#10;ini_set('display_startup_errors', 1);&#10;error_reporting(E_ALL ^ E_WARNING ^ E_NOTICE);&#10;set_time_limit(0);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
