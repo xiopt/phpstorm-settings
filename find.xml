@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'cel.live'" />
-    <option name="defaultScopeName" value="Project 'cel.live'" />
-    <option name="SEARCH_SCOPE" value="Project 'cel.live'" />
+    <option name="customScope" value="File '/Volumes/Avalon/Work/mounts/s5/feeds/run_feed/feedParser.class.php'" />
+    <option name="defaultScopeName" value="File '/Volumes/Avalon/Work/mounts/s5/feeds/run_feed/feedParser.class.php'" />
+    <option name="SEARCH_SCOPE" value="File '/Volumes/Avalon/Work/mounts/s5/feeds/run_feed/feedParser.class.php'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
