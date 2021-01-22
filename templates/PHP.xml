@@ -17,7 +17,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="vda" value="echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;echo print_r($1$,true);&#10;echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;die;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="pd" value="echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;echo print_r($1$,true);&#10;echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;die;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />

@@ -1,0 +1,74 @@
+<templateSet group="html/xml">
+  <template name="bold" value="&lt;span class=&quot;bold&quot;&gt;$value$&lt;/span&gt;" description="bold" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="strong" value="&lt;strong&gt;$value$&lt;/strong&gt;" description="bold" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="div" value="&lt;div class=&quot;&quot;&gt;$value$&lt;/div&gt;" description="new div" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="span" value="&lt;span class=&quot;&quot;&gt;$value$&lt;/span&gt;" description="new span" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA_CERERII" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="clear" value="&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;" description="new clear" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gborder" value="&lt;div class=&quot;grayborder&quot;&gt;$value$&lt;/div&gt;" description="grayborder" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="if" value="&#10;&lt;?php if($1$) { ?&gt;&#10;&#10;&lt;?php } ?&gt;&#10;&#10;" description="phpif" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="else" value="&#10;&lt;?php } elseif($1$) { ?&gt;&#10;&#10;&lt;?php } ?&gt;&#10;&#10;" description="php elseif" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php echo $1$;?&gt;" description="php elseif" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dbg" value="&lt;?php&#10;if(debugip('andy')) {&#10;    echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot; @ &quot;.date(&quot;H:i:s&quot;).&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;    var_dump($1$);&#10;    echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;    die;&#10;} ?&gt;" description="debug html" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="&lt;?php&#10;if(debugip('andy')) {&#10;    echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot; @ &quot;.date(&quot;H:i:s&quot;).&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;    var_dump($1$);&#10;    echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;    die;&#10;} ?&gt;" description="debug html" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
