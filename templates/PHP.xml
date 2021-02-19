@@ -34,4 +34,16 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="vdd" value="if(debugip()) {&#10;    echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;    var_dump($1$);&#10;    echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;    die;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pdd" value="if(debugip()) {&#10;    echo &quot;#&quot;.__LINE__.&quot;&lt;BR&gt;&quot;.__FILE__.&quot;&lt;br&gt;&lt;pre&gt;&quot;;&#10;    echo print_r($1$,true);&#10;    echo &quot;&lt;/pre&gt;&lt;br&gt;&quot;;&#10;    die;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
